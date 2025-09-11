@@ -5,11 +5,11 @@ pipeline {
     }
     
     stages {
-        stage('Checkout Code') {
-            steps {
-                git 'https://github.com/lucas-lin-sonarsource/maven-basic.git' // Use your Git repository URL
-            }
-        }
+        #stage('Checkout Code') {
+        #    steps {
+        #        git 'https://github.com/lucas-lin-sonarsource/maven-basic.git' // Use your Git repository URL
+        #    }
+        #}
         
         stage('Build') {
             steps {
